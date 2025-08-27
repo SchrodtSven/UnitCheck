@@ -1,2 +1,2 @@
 # UnitCheck
-Re-write of P8Unitcheck in Zephir
+Re-write of [UnitCheck](https://github.com/SchrodtSven/UnitCheck) in Zephir
