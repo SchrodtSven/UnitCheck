@@ -59,10 +59,19 @@
     },
     "namespace": "unitcheck",
     "name": "unitcheck",
-    "description": "",
-    "author": "Phalcon Team",
+    "description": "Re-implementation of P8UnitCheck(https://github.com/SchrodtSven/P8Unitcheck)in Zephir",
+    "author": "Sven Schrodt <sven@schrodt.nrw>",
     "version": "0.0.1",
-    "verbose": false,
+    "verbose": true,
+    "info": [
+        {
+            "rows": [
+                ["homepage", "https://schrodt.nrw"],
+                ["email", "sven@schrodt.nrw"],
+                ["github", "https://github.com/SchrodtSven/P8Unitcheck"]
+            ]
+        }
+    ],
     "requires": {
         "extensions": []
     }
