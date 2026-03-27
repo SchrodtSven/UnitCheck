@@ -18,9 +18,9 @@ class Cfg
 
     public function __construct(string configFile = "unitcheck.ini")
     {
-        let this->configFile = \realpath(this->configFile);
+        let this->configFile = realpath(configFile);
         int code;
-        if (!\file_exists(configFile)) {
+        if (!file_exists(configFile)) {
             let code = 404;
             throw new \Exception(configFile, code);
         }
@@ -34,7 +34,8 @@ class Cfg
     public function _init()
     {
 
-        let this->config = \parse_ini_file(this->configFile, true, INI_SCANNER_TYPED);
+
+        let this->config = parse_ini_file(this->configFile, true, INI_SCANNER_TYPED);
 
         
     }

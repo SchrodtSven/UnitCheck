@@ -12,7 +12,11 @@ require_once 'PreParser.php';
 // exit();
 
 $file = [
-    'unitcheck/unitcheck/Entity/Cfg.zep'
+    'unitcheck/unitcheck/Entity/Cfg.zep',
+    'unitcheck/unitcheck/Entity/Failure.zep',
+    'unitcheck/unitcheck/Entity/Success.zep',
+    //'unitcheck/unitcheck/Kernel/FoundationCheck.zep',
+    'unitcheck/unitcheck/Shell/Cli.zep',
 ];
 
 $parser = new PreParser($file);
